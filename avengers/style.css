@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+  background-color: #0D0D0D;
+}
+
+img#pt{
+  width: 300px;
+}
+ul{
+  color: #D96AC6;
+  font-family: 'Noto Serif', serif;
+}
+h1{
+  color:#8981A6 ;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+h2{
+  color:#8981A6 ;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+}
+p{
+  color: #D96AC6;
+  font-family: 'Libre Baskerville', serif;
+}
+a{
+  color:rgb(241, 185, 232);
+}
+footer{
+  background-color:#1B1A40 ;
+  border-radius: 10px;
+}
+p#ultimop{
+  text-align: end;
+}
