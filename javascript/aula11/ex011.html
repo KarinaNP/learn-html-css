@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <h1>País</h1>
+    <p>
+      Vivendo em <input id="país" type="text">
+    </p>
+    <input type="button" value="verificar" onclick="confirm()" >
+    <div id="res"></div>
+    <script>
+      function confirm() {
+        var país = window.document.getElementById('país')
+        var res = window.document.getElementById('res')
+        res.innerHTML= `O seu país atual é ${país.value}`
+        
+        if (país.value != "Brasil" ){
+          res.innerHTML = `Estrangeiro`
+        }
+      }
+    </script>
+  </main>
+  
+</body>
+</html>

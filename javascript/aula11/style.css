@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+main{
+  background-color: #92DDE6;
+  border-radius: 10px 1px;
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 2px 15px 15px;
+}
+h1{
+  text-align: center;
+  color: #C06EE6; 
+  font-family: 'Zen Loop', cursive;
+  font-size: 50px;
+}
+input#txtvel{
+  background-color:rgba(207, 230, 145, 0.767);
+  color: blac ;
+  box-shadow:#C06EE6 ;
+  padding: 0px;
+  width: 100px;
+}
+input#verificar{
+  background-color: rgba(207, 230, 145, 0.863);
+}

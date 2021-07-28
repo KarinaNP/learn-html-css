@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+  background: white;
+}
+header{
+  text-align: center;
+  color: #F29F05;
+}
+section{
+  background-color: rgba(242, 226, 5, 0.26);
+   border-radius: 10px 15px 10px;
+   padding: 15px;
+   width: 500px;
+   margin: auto;
+   box-shadow: 5px 5px 10px rgba(219, 167, 11, 0.452);
+}
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 100px;
+}
+footer{
+  text-align: center;
+}
